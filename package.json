@@ -1,0 +1,48 @@
+{
+  "name": "listing",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon server.js",
+    "build-server": "webpack --config webpack.config.server.js --watch",
+    "build-client": "webpack --config webpack.config.client.js --watch",
+    "build": "npm-run-all --parallel build-server build-client start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "axios": "^0.18.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.8",
+    "morgan": "~1.9.0",
+    "multer": "^1.4.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-table": "^6.9.2",
+    "redux": "^4.0.1",
+    "unique-random": "^2.0.0",
+    "webpack-isomorphic": "^4.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "isomorphic-style-loader": "^4.0.0",
+    "npm-run-all": "^4.1.5",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

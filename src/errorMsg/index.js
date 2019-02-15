@@ -1,0 +1,14 @@
+export const CLIENT_CODE_ERROR="Client code must be an alphanumeric string";
+export const TITLE_ERROR= "Title must be an alphanumeric string, max 64 chars, min 10 chars";
+export const BRAND_ERROR= "Brand must be an alphanumeric string";
+export const MODEL_NUMBER_ERROR= "Model number must be an alphanumeric string";
+export const DIMENSIONS_ERROR= "Dimensions must be an alphanumeric string";
+export const WEIGHT_ERROR= "Weight must be an positive integer";
+export const QUANTITY_ERROR= "Quantity must be an positive integer";
+export const CATEGORY_ERROR= "Category code must be an alphanumeric string";
+export const LOCATION_ERROR= "Location must be an alphanumeric string";
+export const DESCRIPTION_ERROR= "Description must be an alphanumeric string";
+export const PHOTOS_ERROR= "Max 10 photos allowed for each product";
+export const LISTED_PRICE_ERROR= "Listed price must be a positive integer";
+export const SELLING_PRICE_ERROR= "Selling price must be a positive integer";
+export const RESERVE_ERROR= "Reserve must be a positive integer";
